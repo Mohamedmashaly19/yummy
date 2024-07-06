@@ -1,0 +1,147 @@
+#navbar{
+    width: 60px;
+    height: 100vh;
+    
+}
+.loader {
+    color: #fff;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    text-indent: -9999em;
+    animation: mulShdSpin 1.3s infinite linear;
+    transform: translateZ(0);
+  }
+  
+  @keyframes mulShdSpin {
+    0%,
+    100% {
+      box-shadow: 0 -3em 0 0.2em, 
+      2em -2em 0 0em, 3em 0 0 -1em, 
+      2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 0;
+    }
+    12.5% {
+      box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 
+      3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    25% {
+      box-shadow: 0 -3em 0 -0.5em, 
+      2em -2em 0 0, 3em 0 0 0.2em, 
+      2em 2em 0 0, 0 3em 0 -1em, 
+      -2em 2em 0 -1em, -3em 0 0 -1em, 
+      -2em -2em 0 -1em;
+    }
+    37.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, 
+       -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, 
+       -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+      box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em,
+       3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, 
+       -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+      box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 
+      3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+      box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 
+      3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, 
+      -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+  }
+  
+
+#leftMenu {
+    /* width: 235px; */
+    width: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(13,13,13);
+    overflow-x: hidden;
+    transition: 0.150s;
+    
+}
+.sidenav{
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.data-box-hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 0.7s;
+    transform: translateY(110%);
+    width: 92%;
+    margin: auto;
+    top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0; 
+   background-color: rgba(225, 218, 218, 0.790);
+}
+.data-box:hover .data-box-hover{
+    transform: translateY(0);
+
+}
+
+
+.homeBage{
+  height: 70vh;
+  width: 50px;
+}
+i{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.dNone{
+    display: none;
+}
+.dBlock{
+    display: block;
+
+}
+
+.p-diplay{
+    font-size: 14px;
+}
+/* 
+ */
+/* start contact */
+#contactUs{
+    height: 80vh;
+}
+.search{
+  height: 100vh;
+}
+#inputName:hover{
+background-color: white !important;
+cursor: pointer;
+
+}
+#inputLetter:hover{
+  background-color: white !important;
+  cursor: pointer;
+  
+  }

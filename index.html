@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href=".//css/all.css" />
+
+    <link rel="stylesheet" href="./css/styel.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Yummmmmmmmy</title>
+  </head>
+  <body>
+    
+    <section class="d-flex justify-content-between bg-black">
+      <!-- start sid bar -->
+      <div class="nav-item d-flex z-3  position-fixed">
+        <div
+          id="leftMenu"
+          class="d-flex flex-wrap justify-content-between align-content-between"
+        >
+          <div 
+            class="sidenav position-relative w-100  p-4 d-flex flex-wrap row justify-content-start align-items-start "
+          >
+            <a id="search" href="#search" class="closebtn">Search</a>
+            <a id="categories" href="#Categories">Categories</a>
+            <a id="Area" href="#Area">Area</a>
+            <a id="Ingredients" href="#Ingredients">Ingredients</a>
+            <a id="contact" href="#contact">Contact Us</a>
+          </div>
+          <div class="bg-black p-4">
+            <div>
+              <i class="fa-brands fa-facebook text-white"></i>
+              <i class="fa-brands fa-twitter text-white"></i>
+              <i class="fa-solid fa-globe text-white"></i>
+            </div>
+            <div>
+              <p class="text-white fs-6 fw-light">
+                Copyright Â© 2019 All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          id="navbar"
+          class="bg-white d-flex justify-content-between align-content-between p-2 flex-wrap"
+        >
+          <div class="mt-4">
+            <img class="w-100" src="./img/logo.png" alt="logoImg" />
+          </div>
+          <div id="openNav" class="ms-2 openNav">
+            <span
+              ><i
+                id="iconNav"
+                class="fa-solid open-close-icon fa-align-justify fa-2x"
+              ></i>
+              <i
+                id="closeIcon"
+                class="fa-solid fa-xmark fs-1 fw-bolder dNone"
+              ></i>
+            </span>
+          </div>
+          <div class="ms-2 d-flex flex-wrap">
+            <i class="fa-solid fa-globe mb-0 m-2"></i>
+            <i class="fa-solid fa-share-nodes m-2"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- home -->
+      <div id="home" class="container ps-5  pb-5 mt-5">
+        <div
+          id="dataContainer"
+          class="row text-center gy-4 ms-2 mt-2 w-100 h-100"
+        >
+
+          <div 
+            class="w-100  homeBage d-flex justify-content-center align-items-center mt-5"
+          >
+            <span class="loader"></span>
+          
+          </div>
+        </div>
+      </div>
+    
+     
+    
+    </section>
+
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./JS/area.js"></script>
+    <script src="./JS/contact.js"></script>
+    <script src="./JS/categories.js"></script>
+    <script src="./JS/ingredients.js"></script>
+    <script src="./JS/script.js"></script>
+    <script src="./JS/bootstrap.bundle.js"></script>
+  </body>
+</html>
